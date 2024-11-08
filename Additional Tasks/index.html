@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+</head>
+<body style="background-color: #00ff00;">
+<div style="text-align: center;">
+		<form action="#" method="post">
+			<h1>Регистрация</h1>
+			<div style="margin-top: 20px;">
+				<input placeholder="Введите ваше имя" type="text" name="name" required>
+			</div>
+			<div style="margin-top: 20px;">
+				<input placeholder="Введите вашу фамилию" type="text" name="lastName" required>
+			</div>
+			<div style="margin-top: 20px;">
+				<input placeholder="Пароль" type="password" required>
+			</div>
+			<div style="margin-top: 20px;">
+				<input placeholder="Введите ваш возраст" type="number" name="age" required>
+			</div>
+			<div style="margin-top: 20px;">
+				<input placeholder="Email" type="email" name="email" required>
+			</div>
+			<div style="margin-top: 20px;">
+				<input type="date" name="birthdate" required>
+			</div>
+			<div style="margin-top: 20px;">
+				<input type="file" name="file" required>
+			</div>
+			<h2>Имущество</h2>
+			<div>
+				<input type="checkbox" name="subscribe" value="car">Машина
+				<input type="checkbox" name="subscribe" value="airplane">Самолёт
+				<input type="checkbox" name="subscribe" value="bike">Велик
+			</div>
+                
+			<h2>Ваш пол</h2>
+			<div style="margin-top: 20px;">
+				<input type="radio" name="gender" value="male" required> Мужчина
+				<input type="radio" name="gender" value="female" required> Женщина
+			</div>
+			<div style="margin-top: 14px;">
+			<select name="country">
+				<option value="us">США</option>
+				<option value="ru">Россия</option>
+				<option value="fr">Франция</option>
+			</select>
+			</div>
+			<div style="margin-top: 20px;">
+				<textarea placeholder="Сообщение" name="message" rows="2" cols="20"></textarea>
+			</div>
+			<div style="margin-top: 20px;">
+				<button type="submit">Отправить</button>
+				<button type="reset">Очистить</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
+       
