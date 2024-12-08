@@ -1,4 +1,4 @@
-/*body {
+body {
     width: 1440px;
     height: 100%;
     font-weight: 400;
@@ -341,4 +341,4 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 32px;
     justify-content: center;
-}*/
+}
